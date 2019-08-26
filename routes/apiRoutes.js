@@ -6,7 +6,7 @@ const db = require("../models");
 module.exports = function (app) {
 
     app.get('/articles', function (req, res) {
-        request("https://www.nytimes.com/topic/subject/gardens-and-gardening", function(error, response, html) {
+        request("https://www.nytimes.com/topic/subject/courts-and-the-judiciary", function(error, response, html) {
 
             const $ = cheerio.load(html);
 
