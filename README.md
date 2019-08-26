@@ -1,7 +1,6 @@
 # Mongo-Scraper
 
-* This homework assignment was my introduction to using Mongo.db, Mongoose, and Cheerio.
-* My background is in horticulture, hence the theme, and I couldn't resist the silly pun in the title.
+
 * The requirements are:
 - on page load, no articles are displayed
 - on click of a button, 20 articles are scraped from the target news website of my choice and displayed in list format
